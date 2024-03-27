@@ -64,4 +64,4 @@ jobs:
           cd github-pages
           tar -xvf artifact.tar
           npm install linkinator
-          npx linkinator . --recurse --markdown
+          npx linkinator . --recurse --markdown --skip http://www.htaccesstools.com/htpasswd-generator 
